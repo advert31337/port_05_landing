@@ -229,6 +229,7 @@ fieldset {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
     padding: 33px 100px;
+    margin-bottom: 131px;
 }
 
 .benefit__card{
@@ -281,6 +282,7 @@ fieldset {
 /* Places styles start */
 .places{
     margin-bottom: 131px;
+    
 }
 
 .places__caption{
@@ -293,6 +295,7 @@ fieldset {
 
 .places__title{
     margin-right: 15px;
+    
 }
 
 .places__view-all{
