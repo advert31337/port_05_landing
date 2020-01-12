@@ -630,6 +630,17 @@ fieldset {
 
 /* Media request start */
 
+@media screen and (max-width: 960px) {
+    .search-form__field {
+        margin-bottom: 25px;
+    }
+
+    .benefits__cards{
+        padding: 0 15px;
+        grid-column-gap: 35px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .header__burger{
         display: block; 
