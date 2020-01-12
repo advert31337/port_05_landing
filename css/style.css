@@ -685,11 +685,15 @@ fieldset {
 
     .top__cards{
         grid-column-gap: 25px;
-        grid-row-gap: 25px;
+        grid-row-gap: 55px;
     }
 
     .top__card{
         grid-column: span 3;
+    }
+
+    .top__card-pic{
+        margin-bottom: 25px;
     }
 
 
