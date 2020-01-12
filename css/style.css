@@ -345,7 +345,7 @@ fieldset {
 .places__cards{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-column-gap: 10px;
 }
 
 .places__card-size-lg{
@@ -427,7 +427,7 @@ fieldset {
 .tours__tour{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 108px;
+    grid-column-gap: 0 108px;
     align-items: center;
     margin-bottom: 77px;
 }
@@ -474,7 +474,7 @@ fieldset {
 .top__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 57px;
+    grid-column-gap: 57px;
 }
 
 .top__title{
@@ -654,6 +654,14 @@ fieldset {
 
     .benefits__wrap{
         box-shadow: none;
+    }
+
+    .places__card-size-lg{
+        grid-column: span 6;
+    }
+
+    .places__card-size-sm{
+        grid-column: span 6;
     }
 }
 
