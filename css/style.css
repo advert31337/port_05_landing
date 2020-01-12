@@ -766,6 +766,15 @@ fieldset {
     .header__nav-close-line:last-child{
         transform: translateY(-50%) rotate(-45deg);
     }
+
+    .search-form__filed{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .benefit__card{
+        grid-column: span 3;
+    }
 }
 
 /* Media request end */
