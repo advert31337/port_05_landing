@@ -185,9 +185,7 @@ img{
     line-height: 24px;
 }
 
-fieldset {
-    border-width: 0;
-}
+
 .search-form__info{
     display: flex;
     flex-wrap: wrap;
@@ -703,8 +701,19 @@ fieldset {
 }
 
 @media screen and (max-width: 767px) {
+    .section-title{
+        margin-bottom: 25px;
+    }
+    .section-title::after{
+        width: 78px;
+    }
+
     .header__burger{
         display: block; 
+    }
+
+    .header__wrapper{
+        padding-top: 28px;
     }
 
     .header__nav{
@@ -767,13 +776,126 @@ fieldset {
         transform: translateY(-50%) rotate(-45deg);
     }
 
+    .intro{
+        padding-top: 125x;
+    }
+
+    .intro__title{
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .intro__subtitle{
+        font-size: 14px;
+    }
+
     .search-form__filed{
         width: 100%;
         margin-right: 0;
+        padding-bottom: 12px;
+        background: transparent url(../img/svg/circle-item.svg) no-repeat left top 2px;
     }
 
-    .benefit__card{
+    .search-form__submit{
+        width: 100%;
+    }
+
+    .search-form__filed::placeholder{
+        font-size: 16px;
+        
+    }
+
+    .benefits{
+        margin-bottom: 36px;
+    }
+
+    .benefits__card{
         grid-column: span 3;
+        margin-bottom: 40px;
+    }
+
+    .benefits__card-pic{
+        margin-bottom: 20px;
+    }
+
+    .benefits__card-title{
+        margin-bottom: 12px;
+    }
+
+    .benefits__card-desc{
+        margin-bottom: 20px;
+    }
+
+    .plases{
+        margin-bottom: 76px;
+    }
+
+    .places__card-size-lg, .places__card-size-sm{
+        height: 230px;
+    }
+
+    .places__view-all{
+        margin-bottom: 25px;
+    }
+
+    .places__caption{
+        margin-bottom: 0;
+    }
+    .tours{
+        margin-bottom: 76px;
+    }
+
+    .tours__tour{
+        margin-bottom: 50px;
+    }
+
+    .tour__pic, .tour__info{
+        grid-column: span 6;
+    }
+
+    .tour__pic{
+        margin-bottom: 12px;
+    }
+
+    .tour__pic_mob-first{
+        grid-row-start: -1;
+    }
+
+    .top{
+        margin-bottom: 76px;
+    }
+
+    .top__card{
+        grid-column: span 6;
+    }
+
+    .top__card-stats{
+        max-width: 386px;
+    }
+
+    .top__card-desc{
+        margin-bottom: 15px;
+    }
+
+    .footer__logo{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .footer__nav{
+        width: 100%;
+    }
+
+    .footer__menu{
+        width: 50%;
+        margin-bottom: 24px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .header__nav{
+        padding: 75px 30px;
     }
 }
 
