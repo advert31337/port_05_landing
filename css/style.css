@@ -683,6 +683,15 @@ fieldset {
         margin-bottom: 15px;
     }
 
+    .top__cards{
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+
+    .top__card{
+        grid-column: span 3;
+    }
+
 
 }
 
