@@ -1,4 +1,4 @@
-** There is in this repo I learn make raw html&css landinp form figma **
+** There is in this repo I learn make raw html&css landinp form figma **  
 view result here
 https://advert31337.github.io/port_05_landing/
 
